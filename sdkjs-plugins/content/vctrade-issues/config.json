@@ -1,0 +1,42 @@
+{
+    "name"       : "VC-Trade - Issues",
+    "guid"       : "asc.{6ac659a5-2987-4918-9723-9c637383d766}",
+    "baseUrl"    : "",
+    "variations" : [
+        {
+            "description"         : "VC-Trade - Issues",
+            "url"                 : "index.html",
+            "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
+            "isViewer"            : false,
+            "EditorsSupport"      : ["word"],
+            "isVisual"            : false,
+            "isModal"             : true,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",
+            "initData"            : "",
+            "isUpdateOleOnResize" : true,
+            "buttons"             : []
+        },
+        {
+            "description"         : "About",
+            "url"                 : "index_about.html",
+            "icons"               : ["resources/img/icon.png", "resources/img/icon@2x.png"],
+            "isViewer"            : false,
+            "EditorsSupport"      : ["word"],
+            "isVisual"            : true,
+            "isModal"             : true,
+            "isInsideMode"        : false,
+            "initDataType"        : "none",
+            "initData"            : "",
+            "isUpdateOleOnResize" : true,
+            "buttons"         : [
+                {
+                    "text": "Ok",
+                    "primary": true
+                }
+            ],
+
+            "size" : [392, 147]
+        }
+    ]
+}
